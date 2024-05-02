@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio BTS Sio">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Baptiste Lecce">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Baptiste Lecce | Portfolio</title>
+</head>
+<body>
+
+  <nav>
+    <ul id='navbar'>
+      <li><a href="portfolio.html">Accueil</a></li>
+      <li><a href="about-me.html">Moi</a></li>
+      <li><a href="portfolio.html#journey">Parcours</a></li>
+      <li><a href="portfolio.html#projects">Projets</a></li>
+      <li><a href="portfolio.html#contact">Contact</a></li>
+      <li><a href="bts.html">BTS SIO</a></li>
+    </ul>
+  </nav>
+
+  <div id="welcome-section" class="intro">
+    <h1 class="title">Hey, there. I'm <a href="about-me.html">Baptiste</a>.</h1>
+    <p style="margin-bottom: 15px;">a French, network administrator</p>
+    <div class="wrapper">
+      <a class="button-top" href="path_to_file" download="cv_baptiste">Télécharge mon CV !</a>
+    </div>
+
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+            </filter>
+        </defs>
+    </svg>
+  </div>
+
+  <div id="journey" class="container">
+
+    <div class="page-header">
+      <img src='parcours.png' alt=''>
+    </div>
+
+      <ul class="timeline">
+
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Synerlab - Laboratoire BTT</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Septembre 2023 - Aujourd'hui</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Administateur réseau sur l'intégralité du site.</p>
+            </div>
+
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">BTS - Services informatiques aux organisations option</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Septembre 2022 - Aujourd'hui</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Option administration des systèmes et des réseaux.</p>
+            </div>
+        </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Lynxmedia Informatique</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Septembre 2022 - Juin 2023</small></p>
+
+            </div>
+            <div class="timeline-body">
+              <p>Assistance à distance et dépannage informatique.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+    <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h4 class="timeline-title">STAPS - Sciences du sport</h4>
+      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Septembre 2020- Juin 2022</small></p>
+    </div>
+
+    <div class="timeline-body"><p>Pratique et théorie du sport, connaissance du corps humain.</p>
+    </div>
+    </div>
+    </li>
+
+    <li>
+      <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Intérimaire</h4>
+          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Janvier 2022 - Avril 2022</small></p>
+        </div>
+        <div class="timeline-body">
+          <p></p>
+        </div>
+
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Baccalauréat Economique et Social</h4>
+          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Juin 2020</small></p>
+        </div>
+        <div class="timeline-body">
+          <p>Lycée Koeberlé, Sélestat</p>
+        </div>
+    </div>
+    </li>
+
+  </div>
+
+
+
+  <div id="projects">
+      <div class="work-header"><img src='mesprojets.png' alt=''></div>
+      <div class= "work">
+      <div class="card-grid">
+         <a class="card" href="synerlab.html">
+           <div class="card__background" style="background-image: url(https://burst.shopifycdn.com/photos/beakers-for-science-with-water.jpg?width=1200&format=pjpg&exif=0&iptc=0)"></div>
+           <div class="card__content">
+             <p class="card__category">Alternance</p>
+             <h3 class="card__heading">Synerlab - Laboratoire BTT</h3>
+           </div>
+         </a>
+         <a class="card" href="veille-techno.html">
+           <div class="card__background" style="background-image: url(https://wallpapers.com/images/featured/information-technology-nucb4z97b3q78mjk.jpg)"></div>
+           <div class="card__content">
+             <p class="card__category">Veille Technologique</p>
+             <h3 class="card__heading">Titre du projet</h3>
+           </div>
+         </a>
+         <a class="card" href="project1.html">
+           <div class="card__background" style="background-image: url(https://assets-global.website-files.com/633ba7c875e84d0d18d5d77d/65df8522fc856fbe513a7073_connected-technology.jpg)"></div>
+           <div class="card__content">
+             <p class="card__category">Réseau</p>
+             <h3 class="card__heading">Titre du projet</h3>
+           </div>
+         </li>
+         <a class="card" href="project2.html">
+           <div class="card__background" style="background-image: url(https://bernardmarr.com/wp-content/uploads/2022/04/The-10-Biggest-Technology-Trends-That-Will-Transform-The-Next-Decade.jpg)"></div>
+           <div class="card__content">
+             <p class="card__category">Réseau</p>
+             <h3 class="card__heading">Titre du projet</h3>
+           </div>
+         </a>
+       </div>
+       </div>
+  </div>
+
+  <div id="contact" class="class-contact">
+    <div class="contact-header"><img src='workwme.png' alt=''></div>
+
+    <div style="position:relative;top:25%;transform:translateY(-50%);">
+      <div class="wrapper-bottom">
+        <a class="cta" href="mailto:baptiste.lecce@outlook.com">
+          <span>CLICK</span>
+          <span>
+            <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+              </g>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+     <p>&copy;2024 Baptiste Lecce</p>
+   </footer>
+
+</body>
+</html>
