@@ -78,10 +78,17 @@ h2 {
 .intro2 h1 {
   margin-bottom: 50px;
 }
+
 .intro2 h3 {
   color: #59BA60;
   margin-top: 10px;
 }
+
+.intro2 h4 {
+  color: #59BA60;
+  margin-top: 10px;
+}
+
 
 #navbar {
   border-bottom: black 1px solid;
