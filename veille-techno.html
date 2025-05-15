@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio BTS Sio">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Baptiste Lecce">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+
+  <title>Baptiste Lecce | Portfolio</title>
+</head>
+<body>
+
+  <header class="main-content">
+    <nav id="btn-toggle" class="nav-menu">
+      <ul>
+        <li class="nav-list hover-underline"><a href="index.html">Accueil</a></li>
+        <li class="nav-list hover-underline"><a href="about-me.html">Moi</a></li>
+        <li class="nav-list hover-underline"><a href="index.html#journey">Parcours</a></li>
+        <li class="nav-list hover-underline"><a href="index.html#projects">Projets</a></li>
+        <li class="nav-list hover-underline"><a href="veille-techno.html">Veilles</a></li>
+        <li class="nav-list hover-underline"><a href="index.html#contact">Contact</a></li>
+        <li class="nav-list hover-underline"><a href="bts.html">BTS SIO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="burger-menu-container">
+      <div class="nav-menu-btn" onclick="toggleFunc(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+  </div>
+
+
+  <div id="veille" class="intro3">
+
+    <h1 class="cursor typewriter-animation" style="font-size: 4em">Veilles.</h1>
+        <a id="question" href="how-to-veilles.html" style="font-weight: bold; text-decoration: none; color:#59BA60; font-size: 1.5rem;  opacity: 0; transition-duration:.5s;"><i class="fa-solid fa-arrow-right"></i>&#8680; Comment j'effectue mes veilles technologiques ?</a>
+      </div>
+
+      <div class= "work">
+
+      <div class="card-grid" style="padding-top: 50px;">
+         <a class="card" href="veille1.html">
+           <div class="card__background" style="background-image: url(https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D)"></div>
+           <div class="card__content">
+             <p class="card__category">Cybersécurité</p>
+             <h3 class="card__heading">Les Dernières Avancées en Cybersécurité</h3>
+           </div>
+         </a>
+         <a class="card" href="veille2.html">
+           <div class="card__background" style="background-image: url(https://img.freepik.com/photos-gratuite/doigt-main-robot-graphiques-technologie-fond-ia_53876-129793.jpg?ga=GA1.1.1425603435.1731957407&semt=ais_hybrid&w=740)"></div>
+           <div class="card__content">
+             <p class="card__category">IA</p>
+             <h3 class="card__heading">Évolutions récentes de l’Intelligence Artificielle</h3>
+           </div>
+         </a>
+
+         <a class="card" href="veille3.html">
+           <div class="card__background" style="background-image: url(https://img.freepik.com/free-photo/futuristic-smart-city-with-5g-global-network-technology_53876-98438.jpg?t=st=1746543791~exp=1746547391~hmac=809df8a7bfdff430ec8c628db6fed7cae12c42de67681741ba2d3057378b8702&w=996)"></div>
+           <div class="card__content">
+             <p class="card__category">IoT</p>
+             <h3 class="card__heading">Objets Connectés et Enjeux de l’IoT</h3>
+           </div>
+         </a>
+       </div>
+       </div>
+
+
+  <footer>
+    <a href="legal.html">Mentions légales</a>
+     <p>&copy;2025 Baptiste Lecce</p>
+   </footer>
+
+   <script>
+     setTimeout(function(){
+       document.querySelector('#question').style.opacity="1";
+     },2000);
+   </script>
+
+</body>
+</html>

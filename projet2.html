@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio BTS Sio">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Baptiste Lecce">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+
+  <title>Baptiste Lecce | Portfolio</title>
+</head>
+<body>
+
+  <header class="main-content">
+    <nav id="btn-toggle" class="nav-menu">
+      <ul>
+        <li class="nav-list hover-underline"><a href="index.html">Accueil</a></li>
+        <li class="nav-list hover-underline"><a href="about-me.html">Moi</a></li>
+        <li class="nav-list hover-underline"><a href="index.html#journey">Parcours</a></li>
+        <li class="nav-list hover-underline"><a href="index.html#projects">Projets</a></li>
+        <li class="nav-list hover-underline"><a href="veille-techno.html">Veilles</a></li>
+        <li class="nav-list hover-underline"><a href="index.html#contact">Contact</a></li>
+        <li class="nav-list hover-underline"><a href="bts.html">BTS SIO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="burger-menu-container">
+      <div class="nav-menu-btn" onclick="toggleFunc(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+  </div>
+
+
+    <div class="intro2">
+      <h1>Création d’une infrastructure supervisée avec intégration Linux</h1>
+      <p style="margin-bottom:50px">Dans ce projet, j’ai conçu et déployé une infrastructure virtuelle sécurisée et supervisée sous VMware Workstation.
+J’ai mis en place les services Windows essentiels (Active Directory, DNS, DHCP avec failover, WSUS, GPO), ainsi qu’un
+pare-feu redondé avec pfSense (CARP).<br>
+J’ai également intégré un serveur Ubuntu 22.04 avec Samba et Zabbix, dans le but de découvrir l’intégration de
+services Linux dans un environnement Windows.<br>
+Un agent Zabbix a été installé sur chaque machine pour permettre la supervision centralisée de l’infrastructure (état,
+disponibilité, alertes).<br>
+Les postes clients rejoignent le domaine, et les GPO assurent l’application automatique des règles de sécurité, de
+personnalisation et du déploiement des outils.</p>
+        <a href="projet2.pdf" target="_blank" style="font-weight: bold; text-decoration: none; color:#59BA60;">&rarr; Documentation technique</a><br>
+        <a href="t-p2.pdf" target="_blank" style="font-weight: bold; text-decoration: none; color:#59BA60;">&rarr; Fiche Projet</a>
+    </div>
+
+  <footer>
+    <a href="legal.html">Mentions légales</a>
+     <p>&copy;2025 Baptiste Lecce</p>
+   </footer>
+
+</body>
+</html>
