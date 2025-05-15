@@ -357,6 +357,10 @@ footer a {
     width: 100%;
   }
 
+  .mobile-left {
+    position: inherit;
+  }
+  
   .mobile-me {
     display: none;
   }
