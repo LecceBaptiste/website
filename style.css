@@ -139,16 +139,6 @@ footer a {
   padding: var(--spacing-xxl) var(--spacing-l);
 }
 
-.mobile-left {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-  color: white;
-}
-
 .work-header {
   min-width: 50%;
   padding-top: 125px;
