@@ -27,7 +27,20 @@
   <div class="split left">
     <div class="centered title">
       <h1>Création d’un système d’information hautement disponible et interconnecté</h1>
-      <p style="margin-top: 10px; margin-bottom: 10px;">Ce projet a pour objectif de concevoir et mettre en œuvre une infrastructure informatique hautement disponible, sécurisée et interconnectée entre les deux sites d’IFIDE, à Strasbourg et Mulhouse.</p>
+      <p style="margin-top: 10px; margin-bottom: 10px;">Dans le cadre de ce projet, j’ai conçu et mis en place un système d’information hautement disponible et
+interconnecté entre deux sites (Strasbourg et Mulhouse), reposant sur une architecture virtualisée.<br>
+J’ai configuré les pare-feux avec pfSense pour établir une liaison VPN IPsec sécurisée entre les deux sites.
+Un portail captif a également été mis en place afin de contrôler l’accès réseau des utilisateurs invités, en
+s’appuyant sur une authentification centralisée.<br>
+Sur chaque site, deux serveurs Windows Server 2019 ont été installés : un principal (GUI) et un secondaire
+(Core), avec les rôles AD DS, DNS, DHCP, DFS, et DFSR pour la redondance des services.<br>
+J’ai également déployé une solution de sauvegarde centralisée avec TrueNAS via un montage iSCSI,
+permettant la sauvegarde complète des serveurs ainsi que la mise en place de clichés instantanés (Shadow
+Copy).<br>
+Un poste client a été simulé sous Windows Server 2022, joint au domaine Active Directory, afin de tester
+l’application des GPO (groupes restreints, fond d’écran, mots de passe, etc.).
+Toutes les configurations ont été documentées et testées, et un schéma réseau détaillé a été réalisé pour
+représenter l’ensemble de l’architecture.</p>
         <a href="projet1.pdf" target="_blank">Documentation technique</a><br>
         <a href="t-p1.pdf" target="_blank">Fiche Projet</a>
     </div>
