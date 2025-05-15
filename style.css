@@ -357,6 +357,9 @@ footer a {
     width: 100%;
   }
 
+  .mobile-me {
+    display: none;
+  }
   .work-header img {
     width: 100%;
   }
